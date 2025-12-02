@@ -1,73 +1,115 @@
-# PHR Vault – Blockchain-Based Personal Health Records (2026 Prototype)
+# PHR Vault – Blockchain-Based Personal Health Records  
+### (2026 Prototype – Decentralized, Patient-Controlled Health Data System)
 
-PHR Vault is a decentralized, blockchain-powered Personal Health Record (PHR) system designed to give patients full control over their health data with high security, transparency, and privacy.
-This project demonstrates how Web3 technologies (Solidity, IPFS, smart contracts) can improve the security and usability of health data, transforming traditional PHR models into patient-centric systems.
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Build](https://img.shields.io/badge/Status-Active-blue)
+![Tech](https://img.shields.io/badge/Web3-Ethereum-orange)
+![IPFS](https://img.shields.io/badge/Storage-IPFS-yellow)
 
-## Key Features
+PHR Vault is a decentralized, blockchain-powered Personal Health Record (PHR) system that gives patients **full control over their health data** with strong guarantees of privacy, transparency, and security.  
+This prototype demonstrates how Web3 technologies (Solidity, IPFS, Smart Contracts) can redefine digital health and support patient-centric ecosystems.
 
-- Decentralized Storage using IPFS
-- Smart Contract-Based Access Control
-- Patient-Owned Data Model
-- Zero Trust Architecture
-- Tamper-Proof Medical Records
-- Ethereum/Solidity Backend
-- React/NextJS Frontend Demo
+---
 
-## Problem Statement
+## 🚀 Key Features
+- **Decentralized Storage using IPFS**  
+- **Smart Contract–Based Access Control**  
+- **Zero-Trust Architecture**  
+- **Patient-Owned Data Model**  
+- **Tamper-Proof Medical Records**  
+- **Ethereum/Solidity Backend**  
+- **React/NextJS Frontend Demo**  
+- **Role-Based Authorization (Patients, Providers)**
 
-Traditional PHR systems are centralized, vulnerable to breaches, and do not give patients full control.
+---
 
-PHR Vault solves this by using blockchain for:
+## 🔗 Official Links
+| Platform | URL |
+|---------|-----|
+| **ORCID** | https://orcid.org/0009-0003-4129-0614 |
+| **ResearchGate Publication** | https://www.researchgate.net/publication/398154413_Patient_Perceptions_of_Blockchain-Based_Personal_Health_Records_Qualitative_Insights_on_Security_Trust_and_Data_Control |
+| **Google Scholar Entry** |
 
-Verifiable data integrity
-- Immutable logging
-- Distributed storage
-- Transparent consent management
+---
 
-## Tech Stack
-- Component	Technology
-- Smart Contracts	Solidity (EVM)
-- Storage	IPFS
-- Frontend	React / Next.js
-- Wallet	MetaMask
-- Backend	Node.js
-- Security	SHA-256 hashing, Access roles
+## 🏗️ System Architecture  
+Below is the high-level architecture of PHR Vault:
 
-## Architecture Overview
-```
-Patient ---> React App ---> MetaMask ---> Smart Contract ---> IPFS Storage ###
-Provider --> Smart Contract --> Permission Check --> Access Approved/Denied
-```
+[ Browser (Next.js) ]
+↓
+[ Smart Contract Layer (Solidity) ]
+↓
+[ IPFS Storage ]
+↓
+[ Patient / Provider Access ]
 
-## How It Works
 
-- Patient logs in via Web3 wallet
-- Patient uploads encrypted data → stored on IPFS
-- Smart contract stores metadata
-- Provider requests access
-- Patient approves/denies access
-- Immutable audit trail recorded on blockchain
+Full detailed architecture diagram is included in:  
+📁 `architecture-diagram.txt`
+---
 
-## Planned 2026 Release
+## 🛠️ Tech Stack
+- **Frontend:** Next.js / React  
+- **Blockchain:** Solidity, Ethereum  
+- **Storage:** IPFS  
+- **Security:** Access tokens, Wallet-based authentication  
+- **Tools:** Hardhat, Metamask, Ethers.js  
 
-Zero-Knowledge Proof integration
-Multi-chain support (Ethereum/ Polygon / Solana)
-Encrypted metadata indexing
-HIPAA-aligned architecture
+---
 
-## 👨‍💻 Author
+## 📦 Installation (Local Setup)
 
-Dr. Sumeet Bajaj
-PhD (Blockchain-Based Personal Health Records)
+### 1. Clone the repository
+git clone https://github.com/phr-vault/phr-vault.git
+
+cd phr-vault
+
+---
+
+### 2. Install dependencies
+npm install
+
+---
+
+### 3. Start local development server
+npm run dev
+
+---
+
+### 4. Deploy smart contract (optional)
+npx hardhat compile
+npx hardhat node
+npx hardhat run scripts/deploy.js --network localhost
+
+---
+
+## 📚 Citation (APA Style)
+
+If referring to this project or research, please cite:
+
+**Bajaj, S. (2025). _Patient Perceptions of Blockchain-Based Personal Health Records: Qualitative Insights on Security, Trust, and Data Control_. ResearchGate Preprint.**
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for details.
+
+---
+
+## 📬 Contact  
+**Dr. Sumeet Bajaj**  
+Email: sumeetbajaj1@gmail.com  
 LinkedIn: https://linkedin.com/in/sbajaj5
 
-## License
+---
 
-- MIT License
+## ⭐ Support the Project  
+If this project helps you, please consider giving it a **star** ⭐ on GitHub!
 
 
-## Academic Reference
 
-This system is based on the dissertation:
-“Blockchain-Based Personal Health Records (PHR): A Patient-Centered Qualitative Analysis”
-University of the Cumberlands, 2025
+
+
+
+
