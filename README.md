@@ -28,7 +28,7 @@ This prototype demonstrates how Web3 technologies (Solidity, IPFS, Smart Contrac
 |---------|-----|
 | **ORCID** | https://orcid.org/0009-0003-4129-0614 |
 | **ResearchGate Publication** | https://www.researchgate.net/publication/398154413_Patient_Perceptions_of_Blockchain-Based_Personal_Health_Records_Qualitative_Insights_on_Security_Trust_and_Data_Control |
-| **Google Scholar Entry** |
+| **Google Scholar Entry** | https://scholar.google.com/citations?user=rT7NgqMAAAAJ |
 
 ---
 
